@@ -35,9 +35,9 @@
 | @babel/plugin-external-helpers  | 避免重复引用的插件                                                                                 |
 | @babel/register                 | 引入 @babel/register 之后所有 require 并以.es6, .es, .jsx 和 .js 为后缀的模块都会经过 babel 的转译 |
 
-> npm i -D scss
-
 #### 1.2.2 css 预处理器
+
+> npm i -D scss
 
 | 依赖名 | 作用           |
 | ------ | -------------- |
