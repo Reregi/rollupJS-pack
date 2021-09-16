@@ -43,9 +43,9 @@
 | ------ | -------------- |
 | scss   | 编译 scss 代码 |
 
-> npm i -D vue typescript @vue/compiler-sfc pug vue-dts-gen
-
 #### 1.2.3 vue+pug+typescript 框架模板依赖
+
+> npm i -D vue typescript @vue/compiler-sfc pug vue-dts-gen
 
 | 依赖名            | 作用                             |
 | ----------------- | -------------------------------- |
