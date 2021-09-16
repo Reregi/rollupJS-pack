@@ -24,7 +24,7 @@
 
 > npm i -D @babel/core @babel/preset-env @babel/preset-stage-2 @babel/plugin-transform-runtime @babel/plugin-external-helpers @babel/register
 
-**babel**
+#### 1.2.1 babel
 
 | 依赖名                          | 作用                                                                                               |
 | ------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -36,7 +36,8 @@
 | @babel/register                 | 引入 @babel/register 之后所有 require 并以.es6, .es, .jsx 和 .js 为后缀的模块都会经过 babel 的转译 |
 
 > npm i -D scss
-> **css**
+
+#### 1.2.2 css 预处理器
 
 | 依赖名 | 作用           |
 | ------ | -------------- |
@@ -44,7 +45,7 @@
 
 > npm i -D vue typescript @vue/compiler-sfc pug vue-dts-gen
 
-**vue+pug+typescript**
+#### 1.2.3 vue+pug+typescript 框架模板依赖
 
 | 依赖名            | 作用                             |
 | ----------------- | -------------------------------- |
@@ -54,7 +55,7 @@
 | pug               | pug 模板编译                     |
 | vue-dts-gen       | 用于`*.vue`文件生成声明文件 d.ts |
 
-### 1.2 依赖配置文件
+### 1.3 依赖配置文件
 
 **rollup.config.js - rollup 配置文件**
 
@@ -296,8 +297,10 @@ import xxx from "xxxxx"; //'xxxxx'是package.json里声明的name
 看着自己项目来配依赖，比如 pug 什么的，你写的时候不需要模板语法，只写 html 那就不需要，css 预处理器，也可以试其他的，项目框架是 react 的就换 react 的插件。
 
 ### 3.2 [!] (plugin vue) Error: Error parsing JavaScript expression: Unexpected token (1:3)
-该问题 大多数是vue文件里的模板语法导致的，换回html没有报错。
-我把组件单独拿出来打包不会出现这个状况，但是在vite项目使用pug目标你语法内打包组件会出现这个。
+
+该问题 大多数是 vue 文件里的模板语法导致的，换回 html 没有报错。
+我把组件单独拿出来打包不会出现这个状况，但是在 vite 项目使用 pug 目标你语法内打包组件会出现这个。
 
 ### 3.3 后续问题
+
 ....之后补充
